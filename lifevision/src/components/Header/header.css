@@ -1,0 +1,40 @@
+.header-area {
+    padding: 16px 0;
+}
+.logo {}
+
+.logo a {}
+
+.header-info {
+    padding-top: 10px
+}
+
+.single-header-info {
+    padding-left: 65px;
+    position: relative;
+}
+
+.single-header-info img {
+    height: 45px;
+    left: 0px;
+    margin-top: -22.5px;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+}
+
+.single-header-info h2 {
+    color: #222222;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 8px
+}
+
+.single-header-info p,
+.single-header-info a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
