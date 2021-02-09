@@ -1,3 +1,39 @@
+/*Ashnil*/
+.caption {
+  font-size: medium;
+}
+
+
+/* Base CSS */
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+a:focus {
+  outline: 0 solid
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fix {
+  overflow: hidden
+}
+
 body {
   margin: 0;
   height: 100%;
@@ -5,37 +41,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.header-area {
-  padding: 16px 0;
-}
-.header-info {
-  padding-top: 10px;
-}
-.single-header-info {
-  padding-left: 65px;
-  position: relative;
-}
-.single-header-info img {
-  height: 45px;
-  left: 0px;
-  margin-top: -22.5px;
-  position: absolute;
-  top: 50%;
-  width: 45px;
-}
-.single-header-info h2 {
-  color: #222;
-  font-size: 15px;
-  font-weight: 700;
-  margin: 0;
-  margin-bottom: 8px;
-}
-.single-header-info p, .single-header-info a {
-  color: #666;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-}
+
 img {
   max-width: 100%;
   height: auto;
@@ -52,40 +58,15 @@ a{
 a:hover {
   text-decoration: none;
 }
-.menu-area {}
-.mainmenu-wrap {}
-.mainmenu {
-  padding-left: 23px;
-}
-.mainmenu ul {
-  margin: 0;
-  padding: 0;
-}
-.mainmenu ul li {
-  list-style: none;
-  display: inline-block;
+
+.slider-area {
   position: relative;
+  z-index: 1;
 }
-.mainmenu ul li.megamenu {
-  position: inherit;
-}
-.mainmenu ul li.megamenu .main-megamenu-wrapper {
-  width: 100%;
-  overflow: hidden;
-}
-.mainmenu ul li.megamenu .main-megamenu-wrapper ul {
-  float: left;
-  width: 30%;
-}
-.mainmenu ul li a {
-  padding: 30px 20px;
-  display: inline-block;
-  font-size: 15px;
-  color: #c0c0c0;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.mainmenu ul li a:hover {
-  color: #222;
-}
+
+
+
+
+
+
 

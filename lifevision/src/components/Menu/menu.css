@@ -1,0 +1,104 @@
+.mainmenu-wrap {}
+.mainmenu {
+    padding-left: 23px
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative
+}
+.mainmenu ul li.megamenu {
+    position: inherit
+}
+.mainmenu ul li.megamenu .main-megamenu-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+.mainmenu ul li.megamenu .main-megamenu-wrapper ul {
+    float: left;
+    width: 30%
+}
+.mainmenu ul li a {
+    padding: 30px 20px;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.mainmenu ul li a:hover {
+    color: #222
+}
+.mainmenu ul li ul {
+    left: 0px;
+    margin: 0;
+    padding: 13px 0;
+    position: absolute;
+    text-align: left;
+    top: 60px;
+    width: 200px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    z-index: -1;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+.mainmenu ul ul li:hover:after {
+    display: none
+}
+.mainmenu ul li:hover ul {
+    top: 55px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    z-index: 9999
+}
+.mainmenu ul ul li a {
+    display: block;
+    padding: 12px 20px;
+} 
+.slider-top-btn {
+    text-transform: uppercase
+}
+.donate-now-btn,
+.donate-now,
+.join-with-us,
+.read-more-btn {
+    background: #1a1a1a none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 14px;
+    padding: 0;
+    position: relative;
+    right: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 160px;
+}
+.read-more-btn:hover {
+    color: #1A1A1A
+}
+.donate-now:hover {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    color: #fff
+}
+.mainmenu-wrap,
+.single-event-img h2,
+.event-items .owl-nav div,
+.single-people-item:hover,
+.single-people-item:hover.single-people-item span,
+.mainmenu ul li ul,
+.progress-bar {
+  background-image: url(../../img/bg-img.png); 
+}
