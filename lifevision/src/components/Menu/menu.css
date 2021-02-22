@@ -1,6 +1,8 @@
-.mainmenu-wrap {}
+.mainmenu-wrap, .mainmenu ul li ul {
+    background-image: url(../../img/bg-img.png);
+}
 .mainmenu {
-    padding-left: 23px
+    padding-left: 23px;
 }
 .mainmenu ul {
     margin: 0;
@@ -65,10 +67,7 @@
 .slider-top-btn {
     text-transform: uppercase
 }
-.donate-now-btn,
-.donate-now,
-.join-with-us,
-.read-more-btn {
+.donate-now-btn{
     background: #1a1a1a none repeat scroll 0 0;
     border-radius: 5px;
     color: #fff;
@@ -85,20 +84,13 @@
     text-transform: uppercase;
     width: 160px;
 }
-.read-more-btn:hover {
+.slider-top-btn {
+    text-transform: uppercase
+}
+.donate-now-btn:hover {
+    background: #fff;
     color: #1A1A1A
 }
-.donate-now:hover {
-    opacity: .8;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    color: #fff
-}
-.mainmenu-wrap,
-.single-event-img h2,
-.event-items .owl-nav div,
-.single-people-item:hover,
-.single-people-item:hover.single-people-item span,
-.mainmenu ul li ul,
-.progress-bar {
-  background-image: url(../../img/bg-img.png); 
-}
+
+
+

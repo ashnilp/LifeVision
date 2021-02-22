@@ -1,0 +1,14 @@
+.footer-bottom-area {
+    background: #232323;
+    padding: 25px 0;
+    text-align: center;
+}
+.footer-bottom-area p {
+    margin-bottom: 0;
+    color: #fff;
+}
+.footer-bottom-left p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0;;
+}

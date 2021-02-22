@@ -18,9 +18,9 @@ const Menu = () => {
                         </ul> 
                     </div>
                 </div>
-                <div className="col-sm-2">
-                    <div className="slider-top-btn">
-                        <a href="donation.html" className="donate-now-btn">donate now</a>
+                <div class="col-sm-2">
+                    <div class="slider-top-btn">
+                        <a href="donation.html" class="donate-now-btn">donate now</a>
                     </div>
                 </div>
             </div>

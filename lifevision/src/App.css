@@ -1,38 +1,19 @@
 
+
 .slider-area {
   position: relative;
   z-index: 1;
 }
 .menu-area {
   left: 0;
-  position: absolute;
+  position: sticky;
   top: 0;
   z-index: 2;
   width: 100%
 } 
 
 
-.slider-area-2 {
-  background: url(img/slider-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  z-index: 1
-}
 
-.slider-area-2:after {
-  background: #1f1a17 none repeat scroll 0 0;
-  height: 100%;
-  left: 0;
-  opacity: .6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  content: "";
-}
 
 
 

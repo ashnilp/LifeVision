@@ -1,6 +1,8 @@
-.slider-area {}
 
-.home-page-sliders {}
+
+.home-page-sliders {
+   background-color: #F87900;
+}
 
 .single-slider-item {
     background: url(../../img/LifeVision/slider.jpg);
@@ -108,7 +110,7 @@
 }
 
 .home-page-sliders .owl-nav div:hover {
-    background-color: khaki;
+    background: url(../../img/bg-img-2.jpg);
 }
 
 .home-page-sliders .owl-nav div.owl-next {

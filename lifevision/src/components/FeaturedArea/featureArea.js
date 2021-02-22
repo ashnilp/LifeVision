@@ -1,5 +1,6 @@
 import React from 'react';
-import './featureArea.css'
+import './featureArea.css';
+import food from "../../img/LifeVision/food.jpg";
 
 
 const FeatureArea = () => {
@@ -9,7 +10,7 @@ const FeatureArea = () => {
                 <div className="row">
                     <div className="col-sm-5">
                         <div className="single-featured-img">
-                            <img src="../../img/LifeVision/food.jpg"/>
+                            <img src={food}/>
                         </div>
                     </div>
                     <div className="col-sm-7">
@@ -21,7 +22,15 @@ const FeatureArea = () => {
                                 <div className="col-xs-6">
                                     <p>Rised: <span>$$$</span></p>
                                 </div>
+                                <div className="col-xs-6">
+                                    <div className="goal">
+
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div className="rised">
+                            <a href="donation.html">donate now</a>
                         </div>
                     </div>
                 </div>
